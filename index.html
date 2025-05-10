@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <main class="container">
+      <div class="container">
+        <h1 class="hype_title">Hypermart Checkout System</h1> 
+        <p class="hype_p">Real-Time Queue Management System</p>
+      </div>
+  
+<div class="check_container">
+  <div class="check_input">
+          <input type="number" id="iteminput" placeholder="Enter number of items" min="0" />
+  </div>
+  <div>
+    <button class="checkout_btn" onClick="add_to_item()">Checkout Items</button>
+  </div>
+</div>
+   
+    <div class="counter_container">
+  <div class="counter_1">
+    <div class="counter_header">
+      <div><h3>Counter 1</h3></div>
+      <div class="icon_group">
+        <i class="fa fa-users" aria-hidden="true"></i>
+        <p class="customer_count1">0 customers</p>
+      </div>
+    </div>
+    <ul id="item1"></ul>
+    <p class="total_count1">Total items: 0</p>
+  </div>
+
+  <div class="counter_2">
+    <div class="counter_header">
+      <div><h3>Counter 2</h3></div>
+      <div class="icon_group">
+        <i class="fa fa-users" aria-hidden="true"></i>
+        <p class="customer_count2">0 customers</p>
+      </div>
+    </div>
+    <ul id="item2"></ul>
+    <p class="total_count2">Total items: 0</p>
+  </div>
+
+  <div class="counter_3">
+    <div class="counter_header">
+      <div><h3>Counter 3</h3></div>
+      <div class="icon_group">
+        <i class="fa fa-users" aria-hidden="true"></i>
+        <p class="customer_count3">0 customers</p>
+      </div>
+    </div>
+    <ul id="item3"></ul>
+    <p class="total_count3">Total items: 0</p>
+  </div>
+</div>
+
+
+
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
+
